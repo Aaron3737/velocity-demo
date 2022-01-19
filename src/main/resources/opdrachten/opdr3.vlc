@@ -16,6 +16,7 @@
 <p3>Personen die nog niet betaald hebben</p3>
 <table>
 ##    Hier willen we alleen de personen tonen die nog niet betaald hebben!
+##    We willen graag de naam van het persoon weten, en het id
     <tr>
         <td>Persoonskenmerk 1</td>
         <td>Persoonskenmerk 1</td>
