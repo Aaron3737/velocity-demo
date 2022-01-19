@@ -1,0 +1,10 @@
+## Om te bekijken ga naar: http://localhost:8080/opdracht1?body=<<VUL HIER IETS IN>>
+<html>
+<body>
+<h3>${model.title}!</h3>
+
+<p>Print de 'body' variable hier></p>
+
+## Aanvullen: Print de body variabele alleen als deze gevuld is
+</body>
+</html>

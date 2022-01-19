@@ -1,0 +1,14 @@
+## Om te bekijken ga naar: http://localhost:8080/opdracht2
+<html>
+<h3>Tabel</h3>
+<body>
+##  Dit is een tabel
+    <table>
+##        Dit zijn de 'table rows' binnen een tabel. De rijen dus. We moeten per item in de lijst een rij aanmaken
+            <tr>
+##                Dit zijn de cellen binnen een rij. De waarde van het item in de lijst moet hier komen
+                <td>Hier komt de waarde uit de lijst</td>
+            </tr>
+    </table>
+</body>
+</html>
