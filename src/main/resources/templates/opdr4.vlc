@@ -1,12 +1,15 @@
 ## Om te bekijken ga naar: http://localhost:8080/opdracht4?id=<<VUL IN>>
 <html>
+<head>
+    <link rel="stylesheet" href="css/test.css">
+</head>
 <body>
 <h1>Brief</h1>
 <br>
     ## Als persoon niet bestaat, printen we 'Persoon niet gevonden'
 
     ## Brief alleen tonen als persoon gevuld is
-Beste NAAM HIER,
+Beste ${model.persoon.getFirstname()},
 <p>
     Uit onze adminstratie blijkt dat u < WEL / NIET > heeft betaald.
 </p>

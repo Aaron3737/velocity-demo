@@ -1,0 +1,30 @@
+## Om te bekijken ga naar: http://localhost:8080/opdracht3
+<html>
+<body>
+<p3>Personen</p3>
+<table>
+    #foreach($persoon in ${model.lijst})
+        <tr>
+            <td>$persoon.getAge()</td>
+            <td>$persoon.getFirstname()</td>
+            <td>$persoon.getId()</td>
+        </tr>
+    #end
+</table>
+<br>
+
+<p3>Personen die nog niet betaald hebben</p3>
+<table>
+    #foreach($persoon in ${model.lijst})
+        #if(!$persoon.isBetaald())
+            <tr>
+                <td>$persoon.getFirstname()</td>
+                <td>$persoon.getLastname()</td>
+                <td>$persoon.getId()</td>
+            </tr>
+        #end
+    #end
+
+</table>
+</body>
+</html>
