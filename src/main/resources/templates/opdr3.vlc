@@ -1,5 +1,7 @@
 ## Om te bekijken ga naar: http://localhost:8080/opdracht3
 <html>
+## Voeg CSS toe en maak beide tabellen mooi. Zorg dat je duidelijk verschilt ziet tussen de twee tabellen.
+## Beide tabellen naast elkaar tonen op de pagina
 <body>
 <p3>Personen</p3>
 <table>

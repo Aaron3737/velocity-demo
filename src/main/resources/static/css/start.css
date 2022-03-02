@@ -1,0 +1,24 @@
+/* Deze regels gelden voor alle 'p' tags */
+p {
+    border: 2px solid red;
+}
+
+/* Deze regels gelden voor alle tags met class 'blauw'*/
+.blauw {
+    background: blue;
+}
+
+/* Deze regels gelden voor alle tags met class 'groot'*/
+.groot {
+    font-size: 50px;
+}
+
+/* Deze regels gelden voor alle tags met class 'scheef'*/
+.scheef {
+    font-style: italic;
+}
+
+/* Deze regels gelden voor alle tags met id 'comicSansId'*/
+#comicSansId {
+    font-family: "Comic Sans MS";
+}

@@ -1,8 +1,6 @@
 ## Om te bekijken ga naar: http://localhost:8080/opdracht4?id=<<VUL IN>>
 <html>
-<head>
-    <link rel="stylesheet" href="css/test.css">
-</head>
+## Maak de brief mooi op via CSS
 <body>
 <h1>Brief</h1>
 <br>
