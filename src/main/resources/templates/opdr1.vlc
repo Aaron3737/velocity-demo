@@ -1,9 +1,14 @@
 ## Om te bekijken ga naar: http://localhost:8080/opdracht1?body=<<VUL HIER IETS IN>>
 <html>
+## Voeg CSS toe
 <body>
+## Decoreer de h3, geef deze een mooi kleurtje)
 <h3>${model.title}!</h3>
 
+## Decoreer de p met een kleurtje en ander lettertype
 <p>Print de 'body' variable hier></p>
 
+## Print deze in het rood
+${model.ietsanders}
 </body>
 </html>

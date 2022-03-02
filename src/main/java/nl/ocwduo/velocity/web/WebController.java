@@ -18,7 +18,8 @@ public class WebController {
     public String test(@ModelAttribute("model") ModelMap model, @RequestParam(name = "body", defaultValue = "Default waarde") String body) {
 
         model.addAttribute("title", "De titel");
-        model.addAttribute("body", body);
+        model.addAttribute("ietsanders", "Hier tekst");
+        model.addAttribute("blah", "tekst");
 
         return "opdr1";
     }
@@ -39,6 +40,12 @@ public class WebController {
     public String personenLijst(@ModelAttribute("model") ModelMap model) {
         model.addAttribute("lijst", maakPersoonlijst());
         return "opdr3";
+    }
+
+    @RequestMapping(value = "/test", method = RequestMethod.GET)
+    public String terstLijst(@ModelAttribute("model") ModelMap model) {
+        model.addAttribute("lijst", maakPersoonlijst());
+        return "test";
     }
 
     @RequestMapping(value = "/opdracht4", method = RequestMethod.GET)
