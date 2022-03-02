@@ -3,7 +3,7 @@
 ## Voeg CSS toe
 <body>
 ## Decoreer de tabel: Zorg dat het lijstje geprint wordt met velocity
-## En maak de tabel mooi op (randjes, lettertype, kolom aanmaken?)
+## En maak de tabel mooi op (randjes, lettertype, kolomheaders aanmaken?)
 <h3>Tabel</h3>
     ##  Dit is een tabel
     <table>
