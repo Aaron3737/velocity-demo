@@ -1,5 +1,8 @@
 ## Om te bekijken ga naar: http://localhost:8080/opdracht1?body=<<VUL HIER IETS IN>>
 <html>
+<head>
+    <link rel="stylesheet" href="css/style.css">
+</head>
 ## Voeg CSS toe
 <body>
 ## Decoreer de h3, geef deze een mooi kleurtje)
