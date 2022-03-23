@@ -73,6 +73,7 @@
 						</goals>
 						<configuration>
 							 <classifier>exec</classifier>
+							<finalName>app.jar</finalName>
 						</configuration>
 					 </execution>
 				</executions>
