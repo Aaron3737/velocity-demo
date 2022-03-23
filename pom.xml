@@ -71,10 +71,6 @@
 						<goals>
 							<goal>repackage</goal>
 						</goals>
-						<configuration>
-							 <classifier>exec</classifier>
-							<finalName>app.jar</finalName>
-						</configuration>
 					 </execution>
 				</executions>
 			</plugin>
